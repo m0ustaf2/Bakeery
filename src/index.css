@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.main-color{
+  color: #C98A40;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main-bg{
+  background-color: #C98A40;
 }
+.main-border{
+  border-color: #FFD8AB;
+}
+
+.text-font{
+  font-family: Poppins;
+}
+
+
+@media screen and (max-width:990px) 
+{
+  .h-how, .h-home{
+    font-size: 50px !important;
+    font-weight: 800 !important;
+  }  
+  .p-how{
+      font-size: 15px !important;
+      display: flex !important;
+    }
+    .h-resepis{
+      font-size: 100px !important;
+      font-weight: 800 !important;
+    }
+    .p-test{
+      font-size: 55px !important;
+      font-weight: 800 !important;
+    }
+    .h-cont{
+      font-size: 60px !important;
+      font-weight: 800 !important;
+    }
+    .h-about ,.h-how{
+      font-size: 60px !important;
+      font-weight: 800 !important;
+    }
+
+    .img-trans{
+      transform: translateX(-50%) !important;
+      display: block !important;
+    }
+
+  .content{
+    transform: translateX(0%) !important;
+  }
+}
+@media screen and (max-width:768px) {
+  .img-trans,.ff{
+    transform: translateX(0%) !important;
+  }
+};
+
+  
